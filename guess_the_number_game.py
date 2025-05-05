@@ -6,7 +6,7 @@ sys.stdout.buffer.write(b'Enter a minimum value.\n')
 sys.stdout.flush()
 n = int(sys.stdin.buffer.readline().decode().strip())
 
-#最大値の入力 test
+#最大値の入力
 sys.stdout.buffer.write(b'Enter a maximum value.\n')
 sys.stdout.flush()
 m = int(sys.stdin.buffer.readline().decode().strip())
